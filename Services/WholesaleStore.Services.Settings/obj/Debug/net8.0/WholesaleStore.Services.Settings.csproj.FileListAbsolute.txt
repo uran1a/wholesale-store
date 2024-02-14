@@ -1,0 +1,6 @@
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Settings\obj\Debug\net8.0\WholesaleStore.Services.Settings.csproj.AssemblyReference.cache
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Settings\obj\Debug\net8.0\WholesaleStore.Services.Settings.GeneratedMSBuildEditorConfig.editorconfig
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Settings\obj\Debug\net8.0\WholesaleStore.Services.Settings.AssemblyInfoInputs.cache
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Settings\obj\Debug\net8.0\WholesaleStore.Services.Settings.AssemblyInfo.cs
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Settings\obj\Debug\net8.0\WholesaleStore.Services.Settings.csproj.CoreCompileInputs.cache
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Settings\obj\Debug\net8.0\WholesaleStore.Services.Settings.sourcelink.json

@@ -28,3 +28,7 @@ N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\obj\De
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\obj\Debug\net8.0\WholesaleStore.Api.pdb
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\obj\Debug\net8.0\WholesaleStore.Api.genruntimeconfig.cache
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\obj\Debug\net8.0\ref\WholesaleStore.Api.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\Serilog.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\obj\Debug\net8.0\WholesaleStore.Api.csproj.AssemblyReference.cache
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\obj\Debug\net8.0\WholesaleStore.Api.sourcelink.json
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\obj\Debug\net8.0\WholesaleStore.Api.csproj.CopyComplete

@@ -1,0 +1,13 @@
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Shared\WholesaleStore.Common\obj\Debug\net8.0\WholesaleStore.Common.csproj.AssemblyReference.cache
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Shared\WholesaleStore.Common\obj\Debug\net8.0\WholesaleStore.Common.GeneratedMSBuildEditorConfig.editorconfig
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Shared\WholesaleStore.Common\obj\Debug\net8.0\WholesaleStore.Common.AssemblyInfoInputs.cache
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Shared\WholesaleStore.Common\obj\Debug\net8.0\WholesaleStore.Common.AssemblyInfo.cs
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Shared\WholesaleStore.Common\obj\Debug\net8.0\WholesaleStore.Common.csproj.CoreCompileInputs.cache
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Shared\WholesaleStore.Common\obj\Debug\net8.0\WholesaleStore.Common.sourcelink.json
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Shared\WholesaleStore.Common\bin\Debug\net8.0\WholesaleStore.Common.deps.json
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Shared\WholesaleStore.Common\bin\Debug\net8.0\WholesaleStore.Common.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Shared\WholesaleStore.Common\bin\Debug\net8.0\WholesaleStore.Common.pdb
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Shared\WholesaleStore.Common\obj\Debug\net8.0\WholesaleStore.Common.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Shared\WholesaleStore.Common\obj\Debug\net8.0\refint\WholesaleStore.Common.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Shared\WholesaleStore.Common\obj\Debug\net8.0\WholesaleStore.Common.pdb
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Shared\WholesaleStore.Common\obj\Debug\net8.0\ref\WholesaleStore.Common.dll
