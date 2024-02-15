@@ -1,0 +1,13 @@
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Logger\bin\Debug\net8.0\WholesaleStore.Services.Logger.deps.json
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Logger\bin\Debug\net8.0\WholesaleStore.Services.Logger.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Logger\bin\Debug\net8.0\WholesaleStore.Services.Logger.pdb
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Logger\obj\Debug\net8.0\WholesaleStore.Services.Logger.csproj.AssemblyReference.cache
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Logger\obj\Debug\net8.0\WholesaleStore.Services.Logger.GeneratedMSBuildEditorConfig.editorconfig
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Logger\obj\Debug\net8.0\WholesaleStore.Services.Logger.AssemblyInfoInputs.cache
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Logger\obj\Debug\net8.0\WholesaleStore.Services.Logger.AssemblyInfo.cs
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Logger\obj\Debug\net8.0\WholesaleStore.Services.Logger.csproj.CoreCompileInputs.cache
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Logger\obj\Debug\net8.0\WholesaleStore.Services.Logger.sourcelink.json
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Logger\obj\Debug\net8.0\WholesaleStore.Services.Logger.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Logger\obj\Debug\net8.0\refint\WholesaleStore.Services.Logger.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Logger\obj\Debug\net8.0\WholesaleStore.Services.Logger.pdb
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Logger\obj\Debug\net8.0\ref\WholesaleStore.Services.Logger.dll

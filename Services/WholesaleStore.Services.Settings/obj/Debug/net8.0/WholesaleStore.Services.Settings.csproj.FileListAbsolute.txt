@@ -4,3 +4,13 @@ N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Sett
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Settings\obj\Debug\net8.0\WholesaleStore.Services.Settings.AssemblyInfo.cs
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Settings\obj\Debug\net8.0\WholesaleStore.Services.Settings.csproj.CoreCompileInputs.cache
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Settings\obj\Debug\net8.0\WholesaleStore.Services.Settings.sourcelink.json
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Settings\bin\Debug\net8.0\WholesaleStore.Services.Settings.deps.json
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Settings\bin\Debug\net8.0\WholesaleStore.Services.Settings.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Settings\bin\Debug\net8.0\WholesaleStore.Services.Settings.pdb
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Settings\bin\Debug\net8.0\WholesaleStore.Common.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Settings\bin\Debug\net8.0\WholesaleStore.Common.pdb
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Settings\obj\Debug\net8.0\WholesaleStore.Services.Settings.csproj.CopyComplete
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Settings\obj\Debug\net8.0\WholesaleStore.Services.Settings.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Settings\obj\Debug\net8.0\refint\WholesaleStore.Services.Settings.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Settings\obj\Debug\net8.0\WholesaleStore.Services.Settings.pdb
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Settings\obj\Debug\net8.0\ref\WholesaleStore.Services.Settings.dll

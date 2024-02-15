@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AnTreCG4fmp4alPbOdh6igo3cWcn6dVmQ5ft/3uqglyHlEMafczsZdljIHyCnSeN++cLhJPkQ7+jkToKrAFudQ==",
+  "success": true,
+  "projectFilePath": "N:\\code\\2024\\ASP.NET WebAPI\\WholesaleStore\\Services\\WholesaleStore.Services.Logger\\WholesaleStore.Services.Logger.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\voron\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\voron\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

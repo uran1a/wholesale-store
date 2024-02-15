@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -7,7 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Serilog" Version="3.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Services\WholesaleStore.Services.Logger\WholesaleStore.Services.Logger.csproj" />
+    <ProjectReference Include="..\..\..\Services\WholesaleStore.Services.Settings\WholesaleStore.Services.Settings.csproj" />
+    <ProjectReference Include="..\..\..\Shared\WholesaleStore.Common\WholesaleStore.Common.csproj" />
   </ItemGroup>
 
 </Project>
