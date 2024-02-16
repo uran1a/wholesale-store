@@ -18,20 +18,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api
 build_property._RazorSourceGeneratorDebug = 
 
-[N:/code/2024/ASP.NET WebAPI/WholesaleStore/Systems/Api/WholesaleStore.Api/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [N:/code/2024/ASP.NET WebAPI/WholesaleStore/Systems/Api/WholesaleStore.Api/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[N:/code/2024/ASP.NET WebAPI/WholesaleStore/Systems/Api/WholesaleStore.Api/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[N:/code/2024/ASP.NET WebAPI/WholesaleStore/Systems/Api/WholesaleStore.Api/Pages/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [N:/code/2024/ASP.NET WebAPI/WholesaleStore/Systems/Api/WholesaleStore.Api/Pages/_ViewImports.cshtml]

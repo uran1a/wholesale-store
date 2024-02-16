@@ -5,7 +5,7 @@ namespace WholesaleStore.Api;
 
 public static class Bootstraper
 {
-    public static IServiceCollection RegisterServices(this IServiceCollection services)
+    public static IServiceCollection RegisterServices(this IServiceCollection services, IConfiguration configuration = null)
     {
         services
             .AddMainSettings()

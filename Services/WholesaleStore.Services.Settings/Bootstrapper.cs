@@ -25,7 +25,7 @@ public static class Bootstrapper
 
     public static IServiceCollection AddLoggerSettings(this IServiceCollection services, IConfiguration configuration = null)
     {
-        var settings = Common.Settings.Settings.Load<LoggerSettings>("Loggger", configuration);
+        var settings = Common.Settings.Settings.Load<LoggerSettings>("Logger", configuration);
         services.AddSingleton(settings);
 
         return services;

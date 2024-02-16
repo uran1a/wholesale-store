@@ -9,7 +9,7 @@ public class LoggerSettings
     public string FileRollingSize { get; private set; }
 }
 
-public enum LogLevel
+public enum LoggerLevel
 {
     //
     // Summary:
@@ -42,7 +42,7 @@ public enum LogLevel
     Fatal
 }
 
-public enum LogRollingInterval
+public enum LoggerRollingInterval
 {
     //
     // Summary:
