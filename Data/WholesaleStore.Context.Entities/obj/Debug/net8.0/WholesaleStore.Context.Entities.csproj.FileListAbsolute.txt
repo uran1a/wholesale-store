@@ -1,0 +1,13 @@
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Entities\bin\Debug\net8.0\WholesaleStore.Context.Entities.deps.json
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Entities\bin\Debug\net8.0\WholesaleStore.Context.Entities.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Entities\bin\Debug\net8.0\WholesaleStore.Context.Entities.pdb
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Entities\obj\Debug\net8.0\WholesaleStore.Context.Entities.csproj.AssemblyReference.cache
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Entities\obj\Debug\net8.0\WholesaleStore.Context.Entities.GeneratedMSBuildEditorConfig.editorconfig
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Entities\obj\Debug\net8.0\WholesaleStore.Context.Entities.AssemblyInfoInputs.cache
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Entities\obj\Debug\net8.0\WholesaleStore.Context.Entities.AssemblyInfo.cs
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Entities\obj\Debug\net8.0\WholesaleStore.Context.Entities.csproj.CoreCompileInputs.cache
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Entities\obj\Debug\net8.0\WholesaleStore.Context.Entities.sourcelink.json
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Entities\obj\Debug\net8.0\WholesaleStore.Context.Entities.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Entities\obj\Debug\net8.0\refint\WholesaleStore.Context.Entities.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Entities\obj\Debug\net8.0\WholesaleStore.Context.Entities.pdb
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Entities\obj\Debug\net8.0\ref\WholesaleStore.Context.Entities.dll

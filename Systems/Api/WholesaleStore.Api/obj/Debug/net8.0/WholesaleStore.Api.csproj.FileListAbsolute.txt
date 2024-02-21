@@ -72,3 +72,17 @@ N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\De
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\appsettings.context.json
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\Castle.Core.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\Npgsql.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\WholesaleStore.Context.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\WholesaleStore.Context.Entities.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\WholesaleStore.Context.pdb
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\WholesaleStore.Context.Entities.pdb
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\WholesaleStore.Context.Migrations.PostgreSql.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\WholesaleStore.Context.Migrations.PostgreSql.pdb

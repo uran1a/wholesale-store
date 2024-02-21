@@ -24,7 +24,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WholesaleStore.Services.Set
 		{4FE759DD-5F14-41ED-A1FB-2C9AE7452794} = {4FE759DD-5F14-41ED-A1FB-2C9AE7452794}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WholesaleStore.Services.Logger", "Services\WholesaleStore.Services.Logger\WholesaleStore.Services.Logger.csproj", "{C13F57A8-6C7C-41F3-8C04-86819E11B6B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WholesaleStore.Services.Logger", "Services\WholesaleStore.Services.Logger\WholesaleStore.Services.Logger.csproj", "{C13F57A8-6C7C-41F3-8C04-86819E11B6B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WholesaleStore.Context.Entities", "Data\WholesaleStore.Context.Entities\WholesaleStore.Context.Entities.csproj", "{AD911548-D0FD-4BDB-8C35-B42084F1C436}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WholesaleStore.Context", "Data\WholesaleStore.Context\WholesaleStore.Context.csproj", "{F7910467-47C7-4B06-99AF-FB6645316E90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrations", "Migrations", "{3A4E7A4A-B8DA-454B-BD0D-D6F20E4D5EAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WholesaleStore.Context.Migrations.PostgreSql", "Data\WholesaleStore.Context.Migrations\WholesaleStore.Context.Migrations.PostgreSql\WholesaleStore.Context.Migrations.PostgreSql.csproj", "{33D72D27-9292-408F-AD30-94928FA182F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,6 +56,18 @@ Global
 		{C13F57A8-6C7C-41F3-8C04-86819E11B6B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C13F57A8-6C7C-41F3-8C04-86819E11B6B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C13F57A8-6C7C-41F3-8C04-86819E11B6B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD911548-D0FD-4BDB-8C35-B42084F1C436}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD911548-D0FD-4BDB-8C35-B42084F1C436}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD911548-D0FD-4BDB-8C35-B42084F1C436}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD911548-D0FD-4BDB-8C35-B42084F1C436}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7910467-47C7-4B06-99AF-FB6645316E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7910467-47C7-4B06-99AF-FB6645316E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7910467-47C7-4B06-99AF-FB6645316E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7910467-47C7-4B06-99AF-FB6645316E90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33D72D27-9292-408F-AD30-94928FA182F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33D72D27-9292-408F-AD30-94928FA182F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33D72D27-9292-408F-AD30-94928FA182F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33D72D27-9292-408F-AD30-94928FA182F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +79,10 @@ Global
 		{4FE759DD-5F14-41ED-A1FB-2C9AE7452794} = {7FC78AEF-81F6-4062-B6B3-03D1F3C9B2F4}
 		{4B4C3F1C-07FC-4115-8ECE-0D29EB1A45F1} = {CEAB2B2F-1B53-442E-AEB2-6DEA8B6E917F}
 		{C13F57A8-6C7C-41F3-8C04-86819E11B6B5} = {CEAB2B2F-1B53-442E-AEB2-6DEA8B6E917F}
+		{AD911548-D0FD-4BDB-8C35-B42084F1C436} = {3E56FE97-BA0E-4D72-AE21-FE0E2AFE5C74}
+		{F7910467-47C7-4B06-99AF-FB6645316E90} = {3E56FE97-BA0E-4D72-AE21-FE0E2AFE5C74}
+		{3A4E7A4A-B8DA-454B-BD0D-D6F20E4D5EAF} = {3E56FE97-BA0E-4D72-AE21-FE0E2AFE5C74}
+		{33D72D27-9292-408F-AD30-94928FA182F6} = {3A4E7A4A-B8DA-454B-BD0D-D6F20E4D5EAF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3778CEE8-F1C3-43BA-8832-E2B1A6063331}

@@ -3,6 +3,9 @@ using WholesaleStore.Api.Configuration;
 using WholesaleStore.Common.Settings;
 using WholesaleStore.Services.Logger.Logger;
 using WholesaleStore.Services.Settings;
+using WholesaleStore.Context;
+using WholesaleStore.Context.Setup;
+
 
 var mainSettings = Settings.Load<MainSettings>("Main");
 var loggerSettings = Settings.Load<LoggerSettings>("Logger");
@@ -16,6 +19,8 @@ builder.AddAppLogger(mainSettings, loggerSettings);
 var services = builder.Services;
 
 services.AddHttpContextAccessor();
+
+services.AddAppDbContext(builder.Configuration);
 
 services.AddAppCors();
 
@@ -34,8 +39,9 @@ services.AddAppControllerAndViews();
 services.RegisterServices(builder.Configuration);
 
 
-
 var app = builder.Build();
+
+var logger = app.Services.GetRequiredService<IAppLogger>();
 
 app.UseAppCors();
 
@@ -45,10 +51,11 @@ app.UseAppSwagger();
 
 app.UseAppControllerAndViews();
 
-var logger = app.Services.GetRequiredService<IAppLogger>();
+DbInitializer.Execute(app.Services);
 
-logger.Information("The DSRNetSchool.API has started");
+
+logger.Information("The WholesaleStore.API has started");
 
 app.Run();
 
-logger.Information("The DSRNetSchool.API has stopped");
+logger.Information("The WholesaleStore.API has stopped");

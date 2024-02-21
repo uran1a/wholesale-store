@@ -11,9 +11,18 @@ public static class Bootstraper
             .AddMainSettings()
             .AddSwaggerSettings()
             .AddLoggerSettings()
-            .AddAppLogger()
+            .AddAppLogger() 
             ;
 
         return services;
     }
 }
+
+
+
+
+
+
+
+
+

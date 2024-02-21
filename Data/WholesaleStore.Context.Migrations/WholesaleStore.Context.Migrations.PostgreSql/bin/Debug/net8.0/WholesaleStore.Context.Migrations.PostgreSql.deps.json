@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WholesaleStore.Context.Migrations.PostgreSql/1.0.0": {
+        "runtime": {
+          "WholesaleStore.Context.Migrations.PostgreSql.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WholesaleStore.Context.Migrations.PostgreSql/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
