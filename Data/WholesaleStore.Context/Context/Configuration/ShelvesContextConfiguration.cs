@@ -11,5 +11,7 @@ public static class ShelvesContextConfiguration
         modelBuilder.Entity<Shelf>().Property(x => x.Level).IsRequired();
         modelBuilder.Entity<Shelf>().Property(x => x.Height).IsRequired();
         modelBuilder.Entity<Shelf>().Property(x => x.LoadCapacity).IsRequired();
+
+        modelBuilder.Entity<Shelf>().HasOne(x => x.Rack).WithMany(x => x.Shelves).HasForeignKey(x => x.RackId).OnDelete(DeleteBehavior.Restrict);
     }
 }

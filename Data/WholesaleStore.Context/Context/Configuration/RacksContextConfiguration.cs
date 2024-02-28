@@ -13,6 +13,7 @@ public static class RacksContextConfiguration
         modelBuilder.Entity<Rack>().Property(x => x.Length).IsRequired();
         modelBuilder.Entity<Rack>().Property(x => x.Width).IsRequired();
         modelBuilder.Entity<Rack>().Property(x => x.Height).IsRequired();
+
         modelBuilder.Entity<Rack>().HasOne(x => x.Warehouse).WithMany(x => x.Racks).HasForeignKey(x => x.WarehouseId).OnDelete(DeleteBehavior.Restrict);
     }
 }

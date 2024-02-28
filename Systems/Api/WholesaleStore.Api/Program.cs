@@ -5,6 +5,7 @@ using WholesaleStore.Services.Logger.Logger;
 using WholesaleStore.Services.Settings;
 using WholesaleStore.Context;
 using WholesaleStore.Context.Setup;
+using WholesaleStore.Context.Seeder.Seeds;
 
 
 var mainSettings = Settings.Load<MainSettings>("Main");
@@ -53,6 +54,7 @@ app.UseAppControllerAndViews();
 
 DbInitializer.Execute(app.Services);
 
+DbSeeder.Execute(app.Services);
 
 logger.Information("The WholesaleStore.API has started");
 

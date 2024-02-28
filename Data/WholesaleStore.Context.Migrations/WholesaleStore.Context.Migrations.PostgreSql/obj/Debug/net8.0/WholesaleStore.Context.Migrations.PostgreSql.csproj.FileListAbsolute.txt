@@ -10,3 +10,13 @@ N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Migration
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Migrations\WholesaleStore.Context.Migrations.PostgreSql\obj\Debug\net8.0\refint\WholesaleStore.Context.Migrations.PostgreSql.dll
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Migrations\WholesaleStore.Context.Migrations.PostgreSql\obj\Debug\net8.0\WholesaleStore.Context.Migrations.PostgreSql.pdb
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Migrations\WholesaleStore.Context.Migrations.PostgreSql\obj\Debug\net8.0\ref\WholesaleStore.Context.Migrations.PostgreSql.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Migrations\WholesaleStore.Context.Migrations.PostgreSql\bin\Debug\net8.0\WholesaleStore.Common.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Migrations\WholesaleStore.Context.Migrations.PostgreSql\bin\Debug\net8.0\WholesaleStore.Context.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Migrations\WholesaleStore.Context.Migrations.PostgreSql\bin\Debug\net8.0\WholesaleStore.Context.Entities.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Migrations\WholesaleStore.Context.Migrations.PostgreSql\bin\Debug\net8.0\WholesaleStore.Services.Settings.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Migrations\WholesaleStore.Context.Migrations.PostgreSql\bin\Debug\net8.0\WholesaleStore.Context.pdb
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Migrations\WholesaleStore.Context.Migrations.PostgreSql\bin\Debug\net8.0\WholesaleStore.Common.pdb
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Migrations\WholesaleStore.Context.Migrations.PostgreSql\bin\Debug\net8.0\WholesaleStore.Context.Entities.pdb
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Migrations\WholesaleStore.Context.Migrations.PostgreSql\bin\Debug\net8.0\WholesaleStore.Services.Settings.pdb
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Migrations\WholesaleStore.Context.Migrations.PostgreSql\obj\Debug\net8.0\WholesaleStore.Context.Migrations.PostgreSql.csproj.AssemblyReference.cache
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Migrations\WholesaleStore.Context.Migrations.PostgreSql\obj\Debug\net8.0\WholesaleStore.Context.Migrations.PostgreSql.csproj.CopyComplete

@@ -3,7 +3,7 @@ using WholesaleStore.Context.Entities.Common;
 
 namespace WholesaleStore.Context.Entities;
 
-public class Box : BaseEntity
+public class Box
 {
     [Key]
     public int Id { get; set; }

@@ -13,4 +13,5 @@ public class Rack : BaseEntity
 
     public int WarehouseId { get; set; }
     public virtual Warehouse Warehouse { get; set; }
+    public virtual ICollection<Shelf> Shelves { get; set; }
 }
