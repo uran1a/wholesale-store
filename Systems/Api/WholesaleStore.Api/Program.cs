@@ -34,6 +34,7 @@ services.AddAppSwagger(mainSettings, swaggerSettings);
 services.AddAppAutoMappers();
 
 services.AddAppValidator();
+services.AddAppAuth();
 
 services.AddAppControllerAndViews();
 
@@ -49,6 +50,7 @@ app.UseAppCors();
 app.UseAppHealthChecks();
 
 app.UseAppSwagger();
+app.UseAppAuth();
 
 app.UseAppControllerAndViews();
 

@@ -1,5 +1,7 @@
 ﻿using WholesaleStore.Services.Settings;
 using WholesaleStore.Services.Logger;
+using WholesaleStore.Services.Products;
+using WholesaleStore.Services.UserAccount;
 
 namespace WholesaleStore.Api;
 
@@ -12,6 +14,8 @@ public static class Bootstraper
             .AddSwaggerSettings()
             .AddLoggerSettings()
             .AddAppLogger() 
+            .AddProductService()
+            .AddUserAccountService()
             ;
 
         return services;

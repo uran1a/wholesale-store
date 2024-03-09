@@ -20,3 +20,5 @@ N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Seeder\ob
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Seeder\obj\Debug\net8.0\refint\WholesaleStore.Context.Seeder.dll
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Seeder\obj\Debug\net8.0\WholesaleStore.Context.Seeder.pdb
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Seeder\obj\Debug\net8.0\ref\WholesaleStore.Context.Seeder.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Seeder\bin\Debug\net8.0\WholesaleStore.Services.UserAccount.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Data\WholesaleStore.Context.Seeder\bin\Debug\net8.0\WholesaleStore.Services.UserAccount.pdb

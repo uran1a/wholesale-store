@@ -1,10 +1,13 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using WholesaleStore.Context.Context.Configuration;
 using WholesaleStore.Context.Entities;
+using WholesaleStore.Context.Entities.User;
 
 namespace WholesaleStore.Context.Context;
 
-public class MainDbContext : DbContext
+public class MainDbContext : IdentityDbContext<User, IdentityRole<Guid>, Guid>
 {
     public DbSet<Product> Products { get; set; }
     public DbSet<Category> Categories { get; set; }
@@ -27,5 +30,6 @@ public class MainDbContext : DbContext
         modelBuilder.ConfigureRacks();
         modelBuilder.ConfigureShelves();
         modelBuilder.ConfigureWarehouseProducts();
+        modelBuilder.ConfigureUsers();
     }
 }

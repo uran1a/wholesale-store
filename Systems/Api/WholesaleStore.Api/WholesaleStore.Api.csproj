@@ -17,6 +17,7 @@
 	  <PrivateAssets>all</PrivateAssets>
 	  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 	</PackageReference>
+	<PackageReference Include="Microsoft.IdentityModel.Logging" Version="7.0.3" />
 	<PackageReference Include="Serilog" Version="3.1.1" />
 	<PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
 	<PackageReference Include="Serilog.Enrichers.CorrelationId" Version="3.0.1" />
@@ -31,7 +32,9 @@
     <ProjectReference Include="..\..\..\Data\WholesaleStore.Context.Seeder\WholesaleStore.Context.Seeder.csproj" />
     <ProjectReference Include="..\..\..\Data\WholesaleStore.Context\WholesaleStore.Context.csproj" />
     <ProjectReference Include="..\..\..\Services\WholesaleStore.Services.Logger\WholesaleStore.Services.Logger.csproj" />
+    <ProjectReference Include="..\..\..\Services\WholesaleStore.Services.Products\WholesaleStore.Services.Products.csproj" />
     <ProjectReference Include="..\..\..\Services\WholesaleStore.Services.Settings\WholesaleStore.Services.Settings.csproj" />
+    <ProjectReference Include="..\..\..\Services\WholesaleStore.Services.UserAccount\WholesaleStore.Services.UserAccount.csproj" />
     <ProjectReference Include="..\..\..\Shared\WholesaleStore.Common\WholesaleStore.Common.csproj" />
   </ItemGroup>
 

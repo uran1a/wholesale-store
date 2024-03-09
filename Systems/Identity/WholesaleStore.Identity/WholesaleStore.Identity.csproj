@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Duende.IdentityServer" Version="7.0.1" />
+	<PackageReference Include="Duende.IdentityServer.AspNetIdentity" Version="6.3.6" />
+	<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.5" />
+	<PackageReference Include="Serilog.AspNetCore" Version="8.0.0" />
+	<PackageReference Include="Serilog.Enrichers.CorrelationId" Version="3.0.1" />
+	<PackageReference Include="Serilog.Expressions" Version="4.0.0" />
+	<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Data\WholesaleStore.Context.Entities\WholesaleStore.Context.Entities.csproj" />
+    <ProjectReference Include="..\..\..\Data\WholesaleStore.Context\WholesaleStore.Context.csproj" />
+    <ProjectReference Include="..\..\..\Services\WholesaleStore.Services.Settings\WholesaleStore.Services.Settings.csproj" />
+    <ProjectReference Include="..\..\..\Shared\WholesaleStore.Common\WholesaleStore.Common.csproj" />
+  </ItemGroup>
+
+</Project>
