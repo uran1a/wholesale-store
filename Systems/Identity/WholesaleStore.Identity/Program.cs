@@ -13,7 +13,7 @@ builder.AddAppLogger(loggerSettings);
 // Configure services
 var services = builder.Services;
 
-//services.AddAppCors();
+services.AddAppCors();
 
 services.AddHttpContextAccessor();
 
@@ -30,7 +30,7 @@ services.AddIS();
 
 var app = builder.Build();
 
-//app.UseAppCors();
+app.UseAppCors();
 
 app.UseAppHealthChecks();
 

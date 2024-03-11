@@ -4,7 +4,9 @@ using Swashbuckle.AspNetCore.Filters;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using Swashbuckle.AspNetCore.SwaggerUI;
 using System.Reflection;
+using WholesaleStore.Common.Security;
 using WholesaleStore.Services.Settings;
+using WholesaleStore.Services.Settings.Settings;
 
 namespace WholesaleStore.Api.Configuration;
 
@@ -13,7 +15,7 @@ namespace WholesaleStore.Api.Configuration;
 /// </summary>
 public static class SwaggerConfiguration
 {
-    private static string AppTitle = "Wholesale Store";
+    private static string AppTitle = "Wholesale Store API";
 
     /// <summary>
     /// Add OpenAPI to API
@@ -21,8 +23,11 @@ public static class SwaggerConfiguration
     /// <param name="services">Services collection</param>
     /// <param name="mainSettings"></param>
     /// <param name="swaggerSettings"></param>
-    public static IServiceCollection AddAppSwagger(this IServiceCollection services, 
-        MainSettings mainSettings, SwaggerSettings swaggerSettings)
+    public static IServiceCollection AddAppSwagger(this IServiceCollection services,
+        MainSettings mainSettings,
+        SwaggerSettings swaggerSettings,
+        IdentitySettings identitySettings
+        )
     {
         if (!swaggerSettings.Enabled)
             return services;
@@ -64,18 +69,27 @@ public static class SwaggerConfiguration
                 In = ParameterLocation.Header,
                 Flows = new OpenApiOAuthFlows
                 {
+                    ClientCredentials = new OpenApiOAuthFlow
+                    {
+                        TokenUrl = new Uri($"{identitySettings.Url}/connect/token"),
+                        Scopes = new Dictionary<string, string>
+                        {
+                            { AppScopes.ProductsRead, "Read" },
+                            { AppScopes.ProductsWrite, "Write" }
+                        }
+                    },
+
                     Password = new OpenApiOAuthFlow
                     {
-                        TokenUrl = new Uri($"{mainSettings.PublicUrl}/connect/token"),
-                        //Scopes = new Dictionary<string, string>
-                        //{
-                        //    { "Admin", "Admin scope" },
-                        //    { "User", "User scope" }
-                        //}
+                        TokenUrl = new Uri($"{identitySettings.Url}/connect/token"),
+                        Scopes = new Dictionary<string, string>
+                        {
+                            { AppScopes.ProductsRead, "Read" },
+                            { AppScopes.ProductsWrite, "Write" }
+                        }
                     }
                 }
             });
-
 
             options.AddSecurityRequirement(new OpenApiSecurityRequirement
             {

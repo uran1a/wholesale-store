@@ -6,11 +6,13 @@ using WholesaleStore.Services.Settings;
 using WholesaleStore.Context;
 using WholesaleStore.Context.Setup;
 using WholesaleStore.Context.Seeder.Seeds;
+using WholesaleStore.Services.Settings.Settings;
 
 
 var mainSettings = Settings.Load<MainSettings>("Main");
 var loggerSettings = Settings.Load<LoggerSettings>("Logger");
 var swaggerSettings = Settings.Load<SwaggerSettings>("Swagger");
+var identitySettings = Settings.Load<IdentitySettings>("Identity");
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,12 +31,13 @@ services.AddAppHealthChecks();
 
 services.AddAppVersioning();
 
-services.AddAppSwagger(mainSettings, swaggerSettings);
+services.AddAppSwagger(mainSettings, swaggerSettings, identitySettings);
 
 services.AddAppAutoMappers();
 
 services.AddAppValidator();
-services.AddAppAuth();
+
+services.AddAppAuth(identitySettings);
 
 services.AddAppControllerAndViews();
 
@@ -50,6 +53,7 @@ app.UseAppCors();
 app.UseAppHealthChecks();
 
 app.UseAppSwagger();
+
 app.UseAppAuth();
 
 app.UseAppControllerAndViews();

@@ -3,12 +3,15 @@ using Microsoft.AspNetCore.Identity;
 using WholesaleStore.Context.Context;
 using WholesaleStore.Context.Entities.User;
 using Microsoft.IdentityModel.Logging;
+using WholesaleStore.Services.Settings.Settings;
+using IdentityServer4.AccessTokenValidation;
+using Microsoft.IdentityModel.Tokens;
 
 namespace WholesaleStore.Api.Configuration;
 
 public static class AuthConfiguration
 {
-    public static IServiceCollection AddAppAuth(this IServiceCollection services /*, IdentitySettings settings*/)
+    public static IServiceCollection AddAppAuth(this IServiceCollection services, IdentitySettings settings)
     {
         IdentityModelEventSource.ShowPII = true;
 
@@ -25,7 +28,7 @@ public static class AuthConfiguration
             .AddUserManager<UserManager<User>>()
             .AddDefaultTokenProviders();
 
-       /* services.AddAuthentication(options =>
+        services.AddAuthentication(options =>
         {
             options.DefaultScheme = IdentityServerAuthenticationDefaults.AuthenticationScheme;
             options.DefaultChallengeScheme = IdentityServerAuthenticationDefaults.AuthenticationScheme;
@@ -50,18 +53,18 @@ public static class AuthConfiguration
 
         services.AddAuthorization(options =>
         {
-            options.AddPolicy(AppScopes.BooksRead, policy => policy.RequireClaim("scope", AppScopes.BooksRead));
-            options.AddPolicy(AppScopes.BooksWrite, policy => policy.RequireClaim("scope", AppScopes.BooksWrite));
+            options.AddPolicy(AppScopes.ProductsRead, policy => policy.RequireClaim("scope", AppScopes.ProductsRead));
+            options.AddPolicy(AppScopes.ProductsWrite, policy => policy.RequireClaim("scope", AppScopes.ProductsWrite));
         });
-*/
+
         return services;
     }
 
     public static IApplicationBuilder UseAppAuth(this IApplicationBuilder app)
     {
-        /*app.UseAuthentication();
+        app.UseAuthentication();
 
-        app.UseAuthorization();*/
+        app.UseAuthorization();
 
         return app;
     }

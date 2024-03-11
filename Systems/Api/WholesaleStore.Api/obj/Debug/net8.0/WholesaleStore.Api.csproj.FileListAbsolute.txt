@@ -166,3 +166,12 @@ N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\De
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\WholesaleStore.Services.UserAccount.dll
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\WholesaleStore.Services.UserAccount.pdb
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\IdentityModel.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\IdentityModel.AspNetCore.OAuth2Introspection.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\IdentityServer4.AccessTokenValidation.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

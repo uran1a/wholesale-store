@@ -20,10 +20,11 @@ public static class CorsConfiguration
 
         app.UseCors(pol =>
         {
+            /*
             pol.WithHeaders().AllowAnyHeader();
             pol.WithOrigins("http://localhost:5173");
             pol.WithMethods().AllowAnyMethod();
-/*
+            */
             pol.AllowAnyHeader();
             pol.AllowAnyMethod();
             pol.AllowCredentials();
@@ -32,7 +33,7 @@ public static class CorsConfiguration
             else
                 pol.SetIsOriginAllowed(origin => true);
 
-            pol.WithExposedHeaders("Content-Disposition");*/
+            pol.WithExposedHeaders("Content-Disposition");
         });
     }
 }

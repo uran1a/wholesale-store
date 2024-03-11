@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using WholesaleStore.Common.Settings;
+using WholesaleStore.Services.Settings.Settings;
 
 
 namespace WholesaleStore.Services.Settings;
@@ -26,6 +27,14 @@ public static class Bootstrapper
     public static IServiceCollection AddLoggerSettings(this IServiceCollection services, IConfiguration configuration = null)
     {
         var settings = Common.Settings.Settings.Load<LoggerSettings>("Logger", configuration);
+        services.AddSingleton(settings);
+
+        return services;
+    }
+
+    public static IServiceCollection AddIdentitySettings(this IServiceCollection services, IConfiguration configuration = null)
+    {
+        var settings = Common.Settings.Settings.Load<IdentitySettings>("Identity", configuration);
         services.AddSingleton(settings);
 
         return services;

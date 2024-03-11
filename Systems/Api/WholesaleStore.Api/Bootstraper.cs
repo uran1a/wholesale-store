@@ -13,6 +13,7 @@ public static class Bootstraper
             .AddMainSettings()
             .AddSwaggerSettings()
             .AddLoggerSettings()
+            .AddIdentitySettings()
             .AddAppLogger() 
             .AddProductService()
             .AddUserAccountService()

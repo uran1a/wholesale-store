@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WholesaleStore.Context.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b98550a807d382a70a4b66490dd9f8f0183f8ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47be54797d8bca3902ea4a13f26ec38f9a0c5bf1")]
 [assembly: System.Reflection.AssemblyProductAttribute("WholesaleStore.Context.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WholesaleStore.Context.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

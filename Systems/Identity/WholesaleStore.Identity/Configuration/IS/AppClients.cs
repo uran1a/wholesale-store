@@ -14,7 +14,7 @@ public static class AppClients
                 ClientId = "client",
                 ClientSecrets =
                 {
-                    new Secret("password".ToSha256())
+                    new Secret("A3F0811F2E934C4FB054CB693F7D785E".ToSha256())
                 },
                 AllowedGrantTypes = GrantTypes.ClientCredentials, // учетные данные клиента
                 AccessTokenLifetime = 3600, // 1 час
@@ -28,7 +28,7 @@ public static class AppClients
                 ClientId = "frontend",
                 ClientSecrets =
                 {
-                    new Secret("password".ToSha256())
+                    new Secret("A3F0811F2E934C4FB054CB693F7D785E".ToSha256())
                 },
                 AllowedGrantTypes = GrantTypes.ResourceOwnerPassword, // имя пользователя и пароль
                 AllowOfflineAccess = true, 
