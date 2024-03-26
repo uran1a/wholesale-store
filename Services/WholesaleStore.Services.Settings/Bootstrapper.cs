@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using System.Runtime.CompilerServices;
 using WholesaleStore.Common.Settings;
 using WholesaleStore.Services.Settings.Settings;
 
@@ -35,6 +36,14 @@ public static class Bootstrapper
     public static IServiceCollection AddIdentitySettings(this IServiceCollection services, IConfiguration configuration = null)
     {
         var settings = Common.Settings.Settings.Load<IdentitySettings>("Identity", configuration);
+        services.AddSingleton(settings);
+
+        return services;
+    }
+
+    public static IServiceCollection AddJwtSettings(this IServiceCollection services, IConfiguration configuration = null)
+    {
+        var settings = Common.Settings.Settings.Load<JwtSettings>("Jwt", configuration);
         services.AddSingleton(settings);
 
         return services;

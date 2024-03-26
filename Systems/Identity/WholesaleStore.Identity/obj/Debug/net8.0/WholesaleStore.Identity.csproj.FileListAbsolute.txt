@@ -3,7 +3,6 @@ N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Identity\WholesaleStore.Ident
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Identity\WholesaleStore.Identity\obj\Debug\net8.0\WholesaleStore.Identity.AssemblyInfoInputs.cache
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Identity\WholesaleStore.Identity\obj\Debug\net8.0\WholesaleStore.Identity.AssemblyInfo.cs
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Identity\WholesaleStore.Identity\obj\Debug\net8.0\WholesaleStore.Identity.csproj.CoreCompileInputs.cache
-N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Identity\WholesaleStore.Identity\obj\Debug\net8.0\WholesaleStore.Identity.MvcApplicationPartsAssemblyInfo.cs
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Identity\WholesaleStore.Identity\obj\Debug\net8.0\WholesaleStore.Identity.MvcApplicationPartsAssemblyInfo.cache
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Identity\WholesaleStore.Identity\obj\Debug\net8.0\WholesaleStore.Identity.sourcelink.json
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Identity\WholesaleStore.Identity\bin\Debug\net8.0\appsettings.Development.json

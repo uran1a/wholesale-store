@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using WholesaleStore.Context.Entities.User;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace WholesaleStore.Services.UserAccount.UserAccount.Models;
 

@@ -15,7 +15,7 @@ public static class Bootstraper
             .AddLoggerSettings()
             .AddIdentitySettings()
             .AddAppLogger() 
-            .AddProductService()
+            .AddProductService()    
             .AddUserAccountService()
             ;
 

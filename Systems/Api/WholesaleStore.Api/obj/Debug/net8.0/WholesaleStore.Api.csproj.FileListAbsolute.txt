@@ -39,7 +39,6 @@ N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\De
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\WholesaleStore.Services.Settings.dll
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\WholesaleStore.Services.Settings.pdb
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\WholesaleStore.Common.pdb
-N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\obj\Debug\net8.0\WholesaleStore.Api.MvcApplicationPartsAssemblyInfo.cs
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\AutoMapper.dll
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Systems\Api\WholesaleStore.Api\bin\Debug\net8.0\FluentValidation.AspNetCore.dll

@@ -25,7 +25,7 @@ public class ProductService(
             .Include(x => x.Categories)
             .ToListAsync();
 
-        var result = mapper.Map <IEnumerable<ProductModel>>(products);
+        var result = mapper.Map<IEnumerable<ProductModel>>(products);
 
         return result;
     }

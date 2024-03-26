@@ -51,6 +51,8 @@ public class UserAccountService : IUserAccountService
         return mapper.Map<UserAccountModel>(user);
     }
 
+    //public async Task<UserAccountModel> SignIn
+
     public async Task<bool> IsEmpty()
     {
         return !(await userManager.Users.AnyAsync());
