@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WholesaleStore.Context.Seeder")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa7d7f663ba5fa6ad5fcd7acb1d58b177331d3aa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e08f9fb249c674c0116901fe3d446b1fe05db9f")]
 [assembly: System.Reflection.AssemblyProductAttribute("WholesaleStore.Context.Seeder")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WholesaleStore.Context.Seeder")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

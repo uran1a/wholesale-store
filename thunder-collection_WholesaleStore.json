@@ -1,0 +1,165 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "WholesaleStore",
+    "dateExported": "2024-03-30T10:32:51.129Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "231f80e3-ec77-45d3-a260-8f1e7c0e751f",
+            "name": "Auth",
+            "containerId": "",
+            "created": "2024-03-27T16:33:39.706Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "1c858186-365e-4581-937f-5c4a848e8ed7",
+            "name": "AuthController",
+            "containerId": "231f80e3-ec77-45d3-a260-8f1e7c0e751f",
+            "created": "2024-03-28T11:06:17.212Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "76ebd71a-3763-47ec-a6d2-8b09a1004396",
+            "name": "TestController",
+            "containerId": "231f80e3-ec77-45d3-a260-8f1e7c0e751f",
+            "created": "2024-03-28T11:06:25.667Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "df80e79b-a503-40c1-9641-a2735c9ccc62",
+            "colId": "064f3d52-5f90-4ec4-8c08-bec832d1eef6",
+            "containerId": "1c858186-365e-4581-937f-5c4a848e8ed7",
+            "name": "Register",
+            "url": "https://localhost:7140/api/Auth/Register",
+            "method": "POST",
+            "sortNum": 5000,
+            "created": "2024-03-30T10:21:53.330Z",
+            "modified": "2024-03-30T10:23:04.214Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"userName\": \"string\",\r\n  \"password\": \"string\"\r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "b1cdfcf0-3e85-4353-bd36-8a39f50cb7e5",
+            "colId": "064f3d52-5f90-4ec4-8c08-bec832d1eef6",
+            "containerId": "1c858186-365e-4581-937f-5c4a848e8ed7",
+            "name": "Login",
+            "url": "https://localhost:7140/api/Auth/Login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-27T16:33:44.261Z",
+            "modified": "2024-03-30T10:23:48.758Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"userName\": \"nikita@mail.ru\",\n  \"password\": \"123\"\n}",
+                "form": []
+            },
+            "tests": [
+                {
+                    "type": "set-env-var",
+                    "custom": "json.jwtToken",
+                    "action": "setto",
+                    "value": "{{JwtToken}}"
+                },
+                {
+                    "type": "set-env-var",
+                    "custom": "json.refreshToken",
+                    "action": "setto",
+                    "value": "{{RefreshToken}}"
+                }
+            ]
+        },
+        {
+            "_id": "141c7e91-5758-4fc9-9845-733f2353f33e",
+            "colId": "064f3d52-5f90-4ec4-8c08-bec832d1eef6",
+            "containerId": "76ebd71a-3763-47ec-a6d2-8b09a1004396",
+            "name": "Test",
+            "url": "https://localhost:7140/api/Test",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-28T11:06:30.724Z",
+            "modified": "2024-03-30T10:19:28.419Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{JwtToken}}"
+            },
+            "tests": []
+        },
+        {
+            "_id": "a4e2e372-b11e-45b5-93fa-edff22c5976b",
+            "colId": "064f3d52-5f90-4ec4-8c08-bec832d1eef6",
+            "containerId": "1c858186-365e-4581-937f-5c4a848e8ed7",
+            "name": "RefreshToken",
+            "url": "https://localhost:7140/api/Auth/RefreshToken",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-03-30T10:22:39.891Z",
+            "modified": "2024-03-30T10:30:34.812Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"jwtToken\": \"{{JwtToken}}\",\r\n  \"refreshToken\": \"{{RefreshToken}}\"\r\n}",
+                "form": []
+            },
+            "tests": [
+                {
+                    "type": "set-env-var",
+                    "custom": "json.jwtToken",
+                    "action": "setto",
+                    "value": "{{JwtToken}}"
+                },
+                {
+                    "type": "set-env-var",
+                    "custom": "json.refreshToken",
+                    "action": "setto",
+                    "value": "{{RefreshToken}}"
+                }
+            ]
+        },
+        {
+            "_id": "038a582f-2437-4097-9425-fd7052753f73",
+            "colId": "064f3d52-5f90-4ec4-8c08-bec832d1eef6",
+            "containerId": "76ebd71a-3763-47ec-a6d2-8b09a1004396",
+            "name": "AuthorizedTest",
+            "url": "https://localhost:7140/api/Test/AuthorizedTest",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-03-30T10:24:09.794Z",
+            "modified": "2024-03-30T10:25:56.091Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{JwtToken}}"
+            },
+            "tests": []
+        }
+    ]
+}

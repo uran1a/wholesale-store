@@ -24,12 +24,23 @@ namespace WholesaleStore.Auth.Controllers
             if (!ModelState.IsValid)
                 return BadRequest();
 
-            if(await authService.Login(user))
+            var loginResult = await authService.Login(user);
+            if(loginResult.IsLogedIn)
             {
-                var token = authService.GenerateToken(user);
-                return Ok(token);
+                return Ok(loginResult);
             }
-            return BadRequest("Неверный логин или пароль!");
+            return Unauthorized();
+        }
+
+        [HttpPost("RefreshToken")]
+        public async Task<IActionResult> RefreshToken(TokenPair pair)
+        {
+            var loginResult = await authService.RefreshToken(pair);
+            if (loginResult.IsLogedIn)
+            {
+                return Ok(loginResult);
+            }
+            return Unauthorized();
         }
     }
 }

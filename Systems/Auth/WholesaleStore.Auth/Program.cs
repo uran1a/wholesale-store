@@ -14,6 +14,7 @@ builder.Services.AddDbContext<AuthDbContext>(options =>
 {
     options.UseNpgsql(builder.Configuration.GetSection("Database:ConnectionString").Value);
 });
+AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
 builder.Services.AddJwtSettings();
 builder.Services.AddTransient<IAuthService, AuthService>();

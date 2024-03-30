@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using WholesaleStore.Auth.Context;
+using WholesaleStore.Auth.Entities;
 using WholesaleStore.Services.Settings.Settings;
 
 namespace WholesaleStore.Auth.Configuration
@@ -12,7 +13,7 @@ namespace WholesaleStore.Auth.Configuration
         public static IServiceCollection AddAppAuth(this IServiceCollection services, JwtSettings settings)
         {
             services
-                .AddIdentity<IdentityUser, IdentityRole>(options =>
+                .AddIdentity<RefreshableIdentityUser, IdentityRole>(options =>
                 {
                     options.Password.RequiredLength = 0;
                     options.Password.RequireDigit = false;
@@ -33,13 +34,12 @@ namespace WholesaleStore.Auth.Configuration
                 {
                     options.TokenValidationParameters = new TokenValidationParameters()
                     {
-                        ValidateActor = true,
-                        ValidateIssuer = true,
-                        ValidateAudience = true,
+                        ValidateActor = false,
+                        ValidateIssuer = false,
+                        ValidateAudience = false,
                         RequireExpirationTime = true,
                         ValidateIssuerSigningKey = true,
-                        ValidIssuer = settings.Issuer,
-                        ValidAudience = settings.Audience,
+                        ClockSkew = TimeSpan.Zero,
                         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(settings.Key))
                     };
                 });
