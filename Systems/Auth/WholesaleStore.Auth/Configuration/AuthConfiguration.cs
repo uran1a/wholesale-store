@@ -40,8 +40,9 @@ namespace WholesaleStore.Auth.Configuration
                         RequireExpirationTime = true,
                         ValidateIssuerSigningKey = true,
                         ClockSkew = TimeSpan.Zero,
-                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(settings.Key))
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(settings.SignatureAccess))
                     };
+                  
                 });
 
             return services;

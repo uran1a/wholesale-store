@@ -6,6 +6,6 @@ namespace WholesaleStore.Auth.Services
     {
         Task<LoginResponse> Login(LoginUser user);
         Task<bool> RegisterUser(LoginUser user);
-        Task<LoginResponse> RefreshToken(TokenPair pair);
+        Task<LoginResponse> RefreshTokens(string refreshToken);
     }
 }

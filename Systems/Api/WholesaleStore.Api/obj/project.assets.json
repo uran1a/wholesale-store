@@ -2556,6 +2556,22 @@
           "bin/placeholder/WholesaleStore.Context.Seeder.dll": {}
         }
       },
+      "WholesaleStore.Services.Categories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "Microsoft.Extensions.DependencyInjection": "8.0.0",
+          "WholesaleStore.Context": "1.0.0",
+          "WholesaleStore.Context.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WholesaleStore.Services.Categories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WholesaleStore.Services.Categories.dll": {}
+        }
+      },
       "WholesaleStore.Services.Logger/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -2577,7 +2593,8 @@
           "AutoMapper": "13.0.1",
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
           "WholesaleStore.Context": "1.0.0",
-          "WholesaleStore.Context.Entities": "1.0.0"
+          "WholesaleStore.Context.Entities": "1.0.0",
+          "WholesaleStore.Services.Categories": "1.0.0"
         },
         "compile": {
           "bin/placeholder/WholesaleStore.Services.Products.dll": {}
@@ -6276,6 +6293,11 @@
       "path": "../../../Data/WholesaleStore.Context.Seeder/WholesaleStore.Context.Seeder.csproj",
       "msbuildProject": "../../../Data/WholesaleStore.Context.Seeder/WholesaleStore.Context.Seeder.csproj"
     },
+    "WholesaleStore.Services.Categories/1.0.0": {
+      "type": "project",
+      "path": "../../../Services/WholesaleStore.Services.Categories/WholesaleStore.Services.Categories.csproj",
+      "msbuildProject": "../../../Services/WholesaleStore.Services.Categories/WholesaleStore.Services.Categories.csproj"
+    },
     "WholesaleStore.Services.Logger/1.0.0": {
       "type": "project",
       "path": "../../../Services/WholesaleStore.Services.Logger/WholesaleStore.Services.Logger.csproj",
@@ -6315,6 +6337,7 @@
       "WholesaleStore.Context >= 1.0.0",
       "WholesaleStore.Context.Migrations.PostgreSql >= 1.0.0",
       "WholesaleStore.Context.Seeder >= 1.0.0",
+      "WholesaleStore.Services.Categories >= 1.0.0",
       "WholesaleStore.Services.Logger >= 1.0.0",
       "WholesaleStore.Services.Products >= 1.0.0",
       "WholesaleStore.Services.Settings >= 1.0.0",
@@ -6362,6 +6385,9 @@
             },
             "N:\\code\\2024\\ASP.NET WebAPI\\WholesaleStore\\Data\\WholesaleStore.Context\\WholesaleStore.Context.csproj": {
               "projectPath": "N:\\code\\2024\\ASP.NET WebAPI\\WholesaleStore\\Data\\WholesaleStore.Context\\WholesaleStore.Context.csproj"
+            },
+            "N:\\code\\2024\\ASP.NET WebAPI\\WholesaleStore\\Services\\WholesaleStore.Services.Categories\\WholesaleStore.Services.Categories.csproj": {
+              "projectPath": "N:\\code\\2024\\ASP.NET WebAPI\\WholesaleStore\\Services\\WholesaleStore.Services.Categories\\WholesaleStore.Services.Categories.csproj"
             },
             "N:\\code\\2024\\ASP.NET WebAPI\\WholesaleStore\\Services\\WholesaleStore.Services.Logger\\WholesaleStore.Services.Logger.csproj": {
               "projectPath": "N:\\code\\2024\\ASP.NET WebAPI\\WholesaleStore\\Services\\WholesaleStore.Services.Logger\\WholesaleStore.Services.Logger.csproj"

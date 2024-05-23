@@ -16,7 +16,9 @@ public static class ProductsContextConfiguration
         modelBuilder.Entity<Product>().Property(x => x.Title).IsRequired();
         modelBuilder.Entity<Product>().Property(x => x.Title).HasMaxLength(250);
         modelBuilder.Entity<Product>().Property(x => x.Description).IsRequired();
-        modelBuilder.Entity<Product>().Property(x => x.Weight).IsRequired();
         modelBuilder.Entity<Product>().Property(x => x.Price).IsRequired();
+        modelBuilder.Entity<Product>().Property(x => x.Quantity).IsRequired();
+        modelBuilder.Entity<Product>().HasOne(x => x.Category).WithMany(x => x.Products).HasForeignKey(x => x.CategoryId).OnDelete(DeleteBehavior.Restrict);
+        //modelBuilder.Entity<Product>().HasMany(x => x.Images).WithOne(x => x.Product);
     }
 }

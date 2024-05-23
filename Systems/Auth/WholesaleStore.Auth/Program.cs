@@ -16,9 +16,21 @@ builder.Services.AddDbContext<AuthDbContext>(options =>
 });
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+    builder =>
+    {
+        builder
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            .WithOrigins("http://localhost:5173")
+            .AllowCredentials();
+    });
+});
 builder.Services.AddJwtSettings();
 builder.Services.AddTransient<IAuthService, AuthService>();
-builder.Services.AddAppAuth(jwtSettings);
+//builder.Services.AddAppAuth(jwtSettings);
 builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
@@ -28,15 +40,18 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
+app.UseCors("AllowAll");
+
 app.UseHttpsRedirection();
 
-app.UseAppAuth();
+//app.UseAppAuth();
 
 app.MapControllers();
 

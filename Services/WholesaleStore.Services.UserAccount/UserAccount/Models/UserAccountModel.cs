@@ -16,7 +16,7 @@ public class UserAccountModelProfile : Profile
     {
         CreateMap<User, UserAccountModel>()
             .ForMember(d => d.Id, o => o.MapFrom(s => s.Id))
-            .ForMember(d => d.Name, o => o.MapFrom(s => s.FullName))
+            .ForMember(d => d.Name, o => o.MapFrom(s => s.Name))
             .ForMember(d => d.Email, o => o.MapFrom(s => s.Email))
             ;
     }

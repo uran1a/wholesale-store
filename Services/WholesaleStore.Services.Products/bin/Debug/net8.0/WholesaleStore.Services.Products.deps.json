@@ -11,7 +11,8 @@
           "AutoMapper": "13.0.1",
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
           "WholesaleStore.Context": "1.0.0",
-          "WholesaleStore.Context.Entities": "1.0.0"
+          "WholesaleStore.Context.Entities": "1.0.0",
+          "WholesaleStore.Services.Categories": "1.0.0"
         },
         "runtime": {
           "WholesaleStore.Services.Products.dll": {}
@@ -554,6 +555,17 @@
           "WholesaleStore.Context.Entities.dll": {}
         }
       },
+      "WholesaleStore.Services.Categories/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "Microsoft.Extensions.DependencyInjection": "8.0.0",
+          "WholesaleStore.Context": "1.0.0",
+          "WholesaleStore.Context.Entities": "1.0.0"
+        },
+        "runtime": {
+          "WholesaleStore.Services.Categories.dll": {}
+        }
+      },
       "WholesaleStore.Services.Settings/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
@@ -1065,6 +1077,11 @@
       "sha512": ""
     },
     "WholesaleStore.Context.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WholesaleStore.Services.Categories/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

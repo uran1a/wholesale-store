@@ -14,7 +14,7 @@ public static class AuthConfiguration
     public static IServiceCollection AddAppAuth(this IServiceCollection services, IdentitySettings settings)
     {
         IdentityModelEventSource.ShowPII = true;
-
+        /*
         services
             .AddIdentity<User, IdentityRole<Guid>>(opt =>
             {
@@ -27,6 +27,7 @@ public static class AuthConfiguration
             .AddEntityFrameworkStores<MainDbContext>()
             .AddUserManager<UserManager<User>>()
             .AddDefaultTokenProviders();
+        */
 
         services.AddAuthentication(options =>
         {

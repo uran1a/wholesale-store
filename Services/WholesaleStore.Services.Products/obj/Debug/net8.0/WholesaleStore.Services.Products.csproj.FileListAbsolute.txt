@@ -20,3 +20,5 @@ N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Prod
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Products\obj\Debug\net8.0\refint\WholesaleStore.Services.Products.dll
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Products\obj\Debug\net8.0\WholesaleStore.Services.Products.pdb
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Products\obj\Debug\net8.0\ref\WholesaleStore.Services.Products.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Products\bin\Debug\net8.0\WholesaleStore.Services.Categories.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.Products\bin\Debug\net8.0\WholesaleStore.Services.Categories.pdb

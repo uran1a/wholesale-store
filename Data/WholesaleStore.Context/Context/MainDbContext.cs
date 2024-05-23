@@ -7,15 +7,12 @@ using WholesaleStore.Context.Entities.User;
 
 namespace WholesaleStore.Context.Context;
 
-public class MainDbContext : IdentityDbContext<User, IdentityRole<Guid>, Guid>
+public class MainDbContext : DbContext
 {
     public DbSet<Product> Products { get; set; }
     public DbSet<Category> Categories { get; set; }
-    public DbSet<Box> Boxes { get; set; }
-    public DbSet<Warehouse> Warehouses { get; set; }
-    public DbSet<Rack> Racks { get; set; }
-    public DbSet<Shelf> Shelves { get; set; }
-    public DbSet<WarehouseProduct> WarehouseProducts { get; set; }
+    public DbSet<User> Users { get; set; }
+    public DbSet<Image> Images { get; set; }
 
     public MainDbContext(DbContextOptions<MainDbContext> options) : base(options) { }
 
@@ -25,11 +22,7 @@ public class MainDbContext : IdentityDbContext<User, IdentityRole<Guid>, Guid>
 
         modelBuilder.ConfigureProducts();
         modelBuilder.ConfigureCategories();
-        modelBuilder.ConfigureBoxes();
-        modelBuilder.ConfigureWarehouses();
-        modelBuilder.ConfigureRacks();
-        modelBuilder.ConfigureShelves();
-        modelBuilder.ConfigureWarehouseProducts();
         modelBuilder.ConfigureUsers();
+        modelBuilder.ConfigureImages();
     }
 }

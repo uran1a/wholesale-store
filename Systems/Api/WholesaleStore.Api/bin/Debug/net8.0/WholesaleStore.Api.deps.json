@@ -24,6 +24,7 @@
           "WholesaleStore.Context": "1.0.0",
           "WholesaleStore.Context.Migrations.PostgreSql": "1.0.0",
           "WholesaleStore.Context.Seeder": "1.0.0",
+          "WholesaleStore.Services.Categories": "1.0.0",
           "WholesaleStore.Services.Logger": "1.0.0",
           "WholesaleStore.Services.Products": "1.0.0",
           "WholesaleStore.Services.Settings": "1.0.0",
@@ -1390,6 +1391,17 @@
           "WholesaleStore.Context.Seeder.dll": {}
         }
       },
+      "WholesaleStore.Services.Categories/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "Microsoft.Extensions.DependencyInjection": "8.0.0",
+          "WholesaleStore.Context": "1.0.0",
+          "WholesaleStore.Context.Entities": "1.0.0"
+        },
+        "runtime": {
+          "WholesaleStore.Services.Categories.dll": {}
+        }
+      },
       "WholesaleStore.Services.Logger/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
@@ -1404,7 +1416,8 @@
           "AutoMapper": "13.0.1",
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
           "WholesaleStore.Context": "1.0.0",
-          "WholesaleStore.Context.Entities": "1.0.0"
+          "WholesaleStore.Context.Entities": "1.0.0",
+          "WholesaleStore.Services.Categories": "1.0.0"
         },
         "runtime": {
           "WholesaleStore.Services.Products.dll": {}
@@ -2390,6 +2403,11 @@
       "sha512": ""
     },
     "WholesaleStore.Context.Seeder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WholesaleStore.Services.Categories/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

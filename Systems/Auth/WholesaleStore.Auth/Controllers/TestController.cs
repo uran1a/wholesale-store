@@ -16,7 +16,6 @@ namespace WholesaleStore.Auth.Configuration
         }
 
         [HttpGet("AuthorizedTest")]
-        [Authorize]
         public IActionResult AuthorizedTest()
         {
             var authorizationHeader = this.HttpContext.Request.Headers["Authorization"].FirstOrDefault();

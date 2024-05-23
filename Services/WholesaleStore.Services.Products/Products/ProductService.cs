@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using WholesaleStore.Common.Validator;
 using WholesaleStore.Context.Context;
+using WholesaleStore.Context.Entities;
 using WholesaleStore.Services.Products.Products.Models;
 
 namespace WholesaleStore.Services.Products.Products;
@@ -22,7 +23,7 @@ public class ProductService(
         using var context = await dbContextFactory.CreateDbContextAsync();
 
         var products = await context.Products
-            .Include(x => x.Categories)
+            .Include(x => x.Category)
             .ToListAsync();
 
         var result = mapper.Map<IEnumerable<ProductModel>>(products);

@@ -1,14 +1,14 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using WholesaleStore.Context.Entities.Common;
 
 namespace WholesaleStore.Context.Entities.User;
 
-public class User : IdentityUser<Guid>
+public class User : BaseEntity
 {
-    public string FullName { get; set; }
-    public UserStatus Status { get; set; }
-
-    public static implicit operator Task<object>(User v)
-    {
-        throw new NotImplementedException();
-    }
+    public string Email { get; set; } = default!;
+    public string Password { get; set; } = default!;
+    public string Name { get; set; } = default!;
+    public UserStatus Status { get; set; } = default!;
+    public UserRole Role { get; set; } = default!;
+    public string Avatar { get; set; } = default!;
 }

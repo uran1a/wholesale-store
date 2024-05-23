@@ -1288,6 +1288,22 @@
           "bin/placeholder/WholesaleStore.Context.Entities.dll": {}
         }
       },
+      "WholesaleStore.Services.Categories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "Microsoft.Extensions.DependencyInjection": "8.0.0",
+          "WholesaleStore.Context": "1.0.0",
+          "WholesaleStore.Context.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WholesaleStore.Services.Categories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WholesaleStore.Services.Categories.dll": {}
+        }
+      },
       "WholesaleStore.Services.Settings/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -2986,6 +3002,11 @@
       "path": "../../Data/WholesaleStore.Context.Entities/WholesaleStore.Context.Entities.csproj",
       "msbuildProject": "../../Data/WholesaleStore.Context.Entities/WholesaleStore.Context.Entities.csproj"
     },
+    "WholesaleStore.Services.Categories/1.0.0": {
+      "type": "project",
+      "path": "../WholesaleStore.Services.Categories/WholesaleStore.Services.Categories.csproj",
+      "msbuildProject": "../WholesaleStore.Services.Categories/WholesaleStore.Services.Categories.csproj"
+    },
     "WholesaleStore.Services.Settings/1.0.0": {
       "type": "project",
       "path": "../WholesaleStore.Services.Settings/WholesaleStore.Services.Settings.csproj",
@@ -2997,7 +3018,8 @@
       "AutoMapper >= 13.0.1",
       "Microsoft.Extensions.DependencyInjection >= 8.0.0",
       "WholesaleStore.Context >= 1.0.0",
-      "WholesaleStore.Context.Entities >= 1.0.0"
+      "WholesaleStore.Context.Entities >= 1.0.0",
+      "WholesaleStore.Services.Categories >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3038,6 +3060,9 @@
             },
             "N:\\code\\2024\\ASP.NET WebAPI\\WholesaleStore\\Data\\WholesaleStore.Context\\WholesaleStore.Context.csproj": {
               "projectPath": "N:\\code\\2024\\ASP.NET WebAPI\\WholesaleStore\\Data\\WholesaleStore.Context\\WholesaleStore.Context.csproj"
+            },
+            "N:\\code\\2024\\ASP.NET WebAPI\\WholesaleStore\\Services\\WholesaleStore.Services.Categories\\WholesaleStore.Services.Categories.csproj": {
+              "projectPath": "N:\\code\\2024\\ASP.NET WebAPI\\WholesaleStore\\Services\\WholesaleStore.Services.Categories\\WholesaleStore.Services.Categories.csproj"
             }
           }
         }

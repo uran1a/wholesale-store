@@ -1,4 +1,5 @@
-﻿using WholesaleStore.Services.Products.Products.Models;
+﻿using WholesaleStore.Context.Entities;
+using WholesaleStore.Services.Products.Products.Models;
 
 namespace WholesaleStore.Services.Products.Products;
 

@@ -26,6 +26,7 @@ public class UserAccountService : IUserAccountService
     }
     public async Task<UserAccountModel> Create(RegisterUserAccountModel model)
     {
+        /*
         registerUserAccountModelValidator.Check(model);
 
         var user = await userManager.FindByEmailAsync(model.Email);
@@ -48,7 +49,8 @@ public class UserAccountService : IUserAccountService
         if (!result.Succeeded)
             throw new ProcessException($"Creating user account is wrong. {string.Join(", ", result.Errors.Select(s => s.Description))}");
 
-        return mapper.Map<UserAccountModel>(user);
+        */
+        return mapper.Map<UserAccountModel>(new User());
     }
 
     //public async Task<UserAccountModel> SignIn

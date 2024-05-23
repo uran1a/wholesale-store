@@ -4,12 +4,11 @@ namespace WholesaleStore.Context.Entities;
 
 public class Product : BaseEntity
 {
-    public string Title { get; set; }
-    public string Description { get; set; }
-    public double Weight { get; set; }
-    public double Price { get; set; }
-
-    public virtual Box Box { get; set; }
-    public virtual ICollection<Category> Categories { get; set; }
-    public virtual ICollection<WarehouseProduct> WarehouseProducts { get; set; }
+    public string Title { get; set; } = default!;
+    public string Description { get; set; } = default!;
+    public double Price { get; set; } = default!;
+    public int Quantity { get; set; } = default!;
+    public int CategoryId { get; set; }
+    public virtual Category Category { get; set; } = default!;
+    public virtual ICollection<Image> Images { get; set; } = default!;
 }

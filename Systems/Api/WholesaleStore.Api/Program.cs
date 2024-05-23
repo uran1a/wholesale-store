@@ -37,7 +37,7 @@ services.AddAppAutoMappers();
 
 services.AddAppValidator();
 
-services.AddAppAuth(identitySettings);
+//services.AddAppAuth(identitySettings);
 
 services.AddAppControllerAndViews();
 
@@ -54,7 +54,7 @@ app.UseAppHealthChecks();
 
 app.UseAppSwagger();
 
-app.UseAppAuth();
+//app.UseAppAuth();
 
 app.UseAppControllerAndViews();
 

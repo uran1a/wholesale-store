@@ -66,10 +66,10 @@ public static class DbSeeder
 
         await using var context = DbContext(serviceProvider);
 
-        if (await context.Warehouses.AnyAsync())
+        if (await context.Categories.AnyAsync())
             return;
 
-        await context.Warehouses.AddRangeAsync(new DemoHelper().GetWarehouses);
+        await context.Categories.AddRangeAsync(new DemoHelper().GetCategories);
 
         if (await context.Products.AnyAsync())
             return;
