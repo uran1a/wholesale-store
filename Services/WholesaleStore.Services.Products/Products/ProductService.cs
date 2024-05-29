@@ -31,6 +31,19 @@ public class ProductService(
         return result;
     }
 
+    public async Task<ProductModel> GetById(Guid id)
+    {
+        using var context = await dbContextFactory.CreateDbContextAsync();
+
+        var product = await context.Products
+            .Include(x => x.Category)
+            .FirstOrDefaultAsync(x => x.Uid.Equals(id));
+
+        var result = mapper.Map<ProductModel>(product);
+
+        return result;
+    }
+
     public async Task Update(Guid id, UpdateModel model)
     {
         await updateModelValidator.CheckAsync(model);

@@ -2,9 +2,11 @@
 
 namespace WholesaleStore.Context.Entities;
 
-public class Image : BaseEntity
+public class WarehouseStock : BaseEntity
 {
-    public string Url { get; set; } = default!;
+    public int WarehouseId { get; set; }
+    public virtual Warehouse Warehouse { get; set; } = default!;
     public int ProductId { get; set; }
     public virtual Product Product { get; set; } = default!;
+    public int Quentity { get; set; }
 }

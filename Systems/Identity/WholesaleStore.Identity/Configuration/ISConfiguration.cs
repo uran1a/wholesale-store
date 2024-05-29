@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using WholesaleStore.Context.Context;
-using WholesaleStore.Context.Entities.User;
+using WholesaleStore.Context.Entities;
 using WholesaleStore.Identity.Configuration.IS;
 using WholesaleStore.Identity.Configuration.ISp;
 

@@ -1,7 +1,7 @@
 ﻿using WholesaleStore.Common.Security;
 using Microsoft.AspNetCore.Identity;
 using WholesaleStore.Context.Context;
-using WholesaleStore.Context.Entities.User;
+using WholesaleStore.Context.Entities;
 using Microsoft.IdentityModel.Logging;
 using WholesaleStore.Services.Settings.Settings;
 using IdentityServer4.AccessTokenValidation;

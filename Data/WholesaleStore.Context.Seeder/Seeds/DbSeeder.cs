@@ -71,10 +71,10 @@ public static class DbSeeder
 
         await context.Categories.AddRangeAsync(new DemoHelper().GetCategories);
 
-        if (await context.Products.AnyAsync())
+        if (await context.Warehouses.AnyAsync())
             return;
 
-        await context.Products.AddRangeAsync(new DemoHelper().GetProducts);
+        await context.Warehouses.AddRangeAsync(new DemoHelper().GetWarehouses);
 
         await context.SaveChangesAsync();
     }

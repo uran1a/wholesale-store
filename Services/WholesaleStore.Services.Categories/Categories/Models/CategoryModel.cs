@@ -9,7 +9,8 @@ namespace WholesaleStore.Services.Categories.Categories.Models;
 public class CategoryModel
 {
     public Guid Id { get; set; }
-    public string Name { get; set; }
+    public string Name { get; set; } = default!;
+    public string Image { get; set; } = default!;
 }
 
 public class CategoryModelProfile : Profile

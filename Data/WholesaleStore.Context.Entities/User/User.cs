@@ -1,7 +1,6 @@
-﻿using Microsoft.AspNetCore.Identity;
-using WholesaleStore.Context.Entities.Common;
+﻿using WholesaleStore.Context.Entities.Common;
 
-namespace WholesaleStore.Context.Entities.User;
+namespace WholesaleStore.Context.Entities;
 
 public class User : BaseEntity
 {
@@ -11,4 +10,7 @@ public class User : BaseEntity
     public UserStatus Status { get; set; } = default!;
     public UserRole Role { get; set; } = default!;
     public string Avatar { get; set; } = default!;
+    public string PhoneNumber { get; set; } = default!;
+    public string Address { get; set; } = default!;
+    public virtual ICollection<Order> Orders { get; set; } = default!;
 }

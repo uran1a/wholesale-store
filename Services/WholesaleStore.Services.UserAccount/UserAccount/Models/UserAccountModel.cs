@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using WholesaleStore.Context.Entities.User;
+using WholesaleStore.Context.Entities;
 
 namespace WholesaleStore.Services.UserAccount.UserAccount.Models;
 

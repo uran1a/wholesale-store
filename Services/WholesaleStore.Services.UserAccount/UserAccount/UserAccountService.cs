@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using WholesaleStore.Common.Exceptions;
 using WholesaleStore.Common.Validator;
-using WholesaleStore.Context.Entities.User;
+using WholesaleStore.Context.Entities;
 using WholesaleStore.Services.UserAccount.UserAccount.Models;
 
 namespace WholesaleStore.Services.UserAccount.UserAccount;

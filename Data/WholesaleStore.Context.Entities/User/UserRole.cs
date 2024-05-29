@@ -1,4 +1,4 @@
-﻿namespace WholesaleStore.Context.Entities.User;
+﻿namespace WholesaleStore.Context.Entities;
 
 public enum UserRole
 {

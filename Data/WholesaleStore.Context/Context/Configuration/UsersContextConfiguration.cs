@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using WholesaleStore.Context.Entities.User;
+using WholesaleStore.Context.Entities;
 
 namespace WholesaleStore.Context.Context.Configuration;
 public static class UsersContextConfiguration

@@ -28,6 +28,14 @@ public class ProductController(
         return result;
     }
 
+    [HttpGet("{id:Guid}")]
+    public async Task<ProductModel> GetById([FromRoute] Guid id)
+    {
+        var result = await productService.GetById(id);
+
+        return result;
+    }
+
     [HttpPut("{id:Guid}")]
     //[Authorize(AppScopes.ProductsWrite)]
     public async Task Update([FromRoute] Guid id, UpdateModel request)
