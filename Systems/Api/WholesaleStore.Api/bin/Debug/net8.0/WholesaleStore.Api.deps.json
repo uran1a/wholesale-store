@@ -1436,7 +1436,9 @@
         "dependencies": {
           "AutoMapper": "13.0.1",
           "FluentValidation": "11.9.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.0.0",
           "WholesaleStore.Common": "1.0.0",
+          "WholesaleStore.Context": "1.0.0",
           "WholesaleStore.Context.Entities": "1.0.0"
         },
         "runtime": {

@@ -18,7 +18,7 @@ public static class Bootstraper
             .AddAppLogger() 
             .AddProductService()   
             .AddCategoryService()
-            //.AddUserAccountService()
+            .AddUserAccountService()
             ;
 
         return services;

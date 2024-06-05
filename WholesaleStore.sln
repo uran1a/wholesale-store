@@ -48,7 +48,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{B517EADF-A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WholesaleStore.Auth", "Systems\Auth\WholesaleStore.Auth\WholesaleStore.Auth.csproj", "{EE04ADCB-808D-492B-A0CC-41F323AD44D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WholesaleStore.Services.Categories", "Services\WholesaleStore.Services.Categories\WholesaleStore.Services.Categories.csproj", "{16DE040E-9AC8-48B6-AC8E-103050B3BA38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WholesaleStore.Services.Categories", "Services\WholesaleStore.Services.Categories\WholesaleStore.Services.Categories.csproj", "{16DE040E-9AC8-48B6-AC8E-103050B3BA38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

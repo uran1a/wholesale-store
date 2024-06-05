@@ -44,6 +44,36 @@ public class ProductService(
         return result;
     }
 
+    public async Task<IEnumerable<ProductModel>> Search(string title, double priceMin, double priceMax, string categoryUId)
+    {
+        using var context = await dbContextFactory.CreateDbContextAsync();
+        var products = await context.Products
+            .Include(x => x.Category)
+            .ToListAsync();
+
+        if (categoryUId != string.Empty)
+        {
+            products = products.Where(x => x.Category.Uid == new Guid(categoryUId)).ToList();
+        }
+
+        if (title != string.Empty)
+        {
+            products = products.Where(x => x.Title.ToLower().Contains(title.ToLower())).ToList();
+        }
+
+        if (priceMin > 0)
+        {
+            products = products.Where(x => x.Price >= priceMin).ToList();
+        }
+
+        if (priceMax > 0)
+        {
+            products = products.Where(x => x.Price < priceMax).ToList();
+        }
+
+        return mapper.Map<IEnumerable<ProductModel>>(products);
+    }
+
     public async Task Update(Guid id, UpdateModel model)
     {
         await updateModelValidator.CheckAsync(model);

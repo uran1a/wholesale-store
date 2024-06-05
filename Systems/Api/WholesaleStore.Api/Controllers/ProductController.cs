@@ -37,9 +37,20 @@ public class ProductController(
     }
 
     [HttpPut("{id:Guid}")]
-    //[Authorize(AppScopes.ProductsWrite)]
     public async Task Update([FromRoute] Guid id, UpdateModel request)
     {
         await productService.Update(id, request);
+    }
+
+    [HttpGet("search")]
+    public async Task<IEnumerable<ProductModel>> Search(
+        [FromQuery(Name = "title")] string title = "",
+        [FromQuery(Name = "price_min")] double priceMin = 0.0,
+        [FromQuery(Name = "price_max")] double priceMax = 0.0,
+        [FromQuery(Name = "categoryId")] string categoryUId = "")
+    {
+        var result = await productService.Search(title, priceMin, priceMax, categoryUId);
+
+        return result;
     }
 }

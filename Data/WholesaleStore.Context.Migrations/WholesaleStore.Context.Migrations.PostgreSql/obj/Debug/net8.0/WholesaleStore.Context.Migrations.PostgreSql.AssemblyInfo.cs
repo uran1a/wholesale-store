@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WholesaleStore.Context.Migrations.PostgreSql")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+293cda00736b25b11e495d3ab1123864d9db2769")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+840b82f636b0ecebf86f4999d887e9cb532a130a")]
 [assembly: System.Reflection.AssemblyProductAttribute("WholesaleStore.Context.Migrations.PostgreSql")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WholesaleStore.Context.Migrations.PostgreSql")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

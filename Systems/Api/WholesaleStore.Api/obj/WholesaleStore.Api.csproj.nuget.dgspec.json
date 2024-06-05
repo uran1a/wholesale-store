@@ -656,6 +656,9 @@
               "N:\\code\\2024\\ASP.NET WebAPI\\WholesaleStore\\Data\\WholesaleStore.Context.Entities\\WholesaleStore.Context.Entities.csproj": {
                 "projectPath": "N:\\code\\2024\\ASP.NET WebAPI\\WholesaleStore\\Data\\WholesaleStore.Context.Entities\\WholesaleStore.Context.Entities.csproj"
               },
+              "N:\\code\\2024\\ASP.NET WebAPI\\WholesaleStore\\Data\\WholesaleStore.Context\\WholesaleStore.Context.csproj": {
+                "projectPath": "N:\\code\\2024\\ASP.NET WebAPI\\WholesaleStore\\Data\\WholesaleStore.Context\\WholesaleStore.Context.csproj"
+              },
               "N:\\code\\2024\\ASP.NET WebAPI\\WholesaleStore\\Shared\\WholesaleStore.Common\\WholesaleStore.Common.csproj": {
                 "projectPath": "N:\\code\\2024\\ASP.NET WebAPI\\WholesaleStore\\Shared\\WholesaleStore.Common\\WholesaleStore.Common.csproj"
               }
@@ -679,6 +682,10 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[11.9.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             }
           },
           "imports": [

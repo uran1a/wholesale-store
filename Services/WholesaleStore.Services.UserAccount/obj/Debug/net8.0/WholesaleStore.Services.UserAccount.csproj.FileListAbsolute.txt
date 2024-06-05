@@ -16,3 +16,7 @@ N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.User
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.UserAccount\obj\Debug\net8.0\refint\WholesaleStore.Services.UserAccount.dll
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.UserAccount\obj\Debug\net8.0\WholesaleStore.Services.UserAccount.pdb
 N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.UserAccount\obj\Debug\net8.0\ref\WholesaleStore.Services.UserAccount.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.UserAccount\bin\Debug\net8.0\WholesaleStore.Context.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.UserAccount\bin\Debug\net8.0\WholesaleStore.Services.Settings.dll
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.UserAccount\bin\Debug\net8.0\WholesaleStore.Context.pdb
+N:\code\2024\ASP.NET WebAPI\WholesaleStore\Services\WholesaleStore.Services.UserAccount\bin\Debug\net8.0\WholesaleStore.Services.Settings.pdb
