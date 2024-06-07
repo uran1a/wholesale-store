@@ -16,11 +16,11 @@ namespace WholesaleStore.Api.Controllers;
 [Route("api/v{version:apiVersion}/auth")]
 public class AuthController(
     IMapper mapper,
-    ILogger<AccountsController> logger,
+    ILogger<AuthController> logger,
     IUserAccountService userAccountService) : ControllerBase
 {
     private readonly IMapper mapper = mapper;
-    private readonly ILogger<AccountsController> logger = logger;
+    private readonly ILogger<AuthController> logger = logger;
     private readonly IUserAccountService userAccountService = userAccountService;
 
     [HttpPost("")]

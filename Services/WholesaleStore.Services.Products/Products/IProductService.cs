@@ -9,4 +9,5 @@ public interface IProductService
     Task<ProductModel> GetById(Guid id);
     Task<IEnumerable<ProductModel>> Search(string title, double priceMin, double priceMax, string categoryUId);
     Task Update(Guid id, UpdateModel model);
+    Task<ProductModel> Create(CreateProductModel model);
 }

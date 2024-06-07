@@ -1,23 +1,21 @@
 ﻿using AutoMapper;
-using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using WholesaleStore.Common.Validator;
 using WholesaleStore.Context.Context;
+using WholesaleStore.Context.Entities;
 using WholesaleStore.Services.Categories.Categories.Models;
 
 namespace WholesaleStore.Services.Categories.Categories;
 
 public class CategoryService(
         IDbContextFactory<MainDbContext> dbContextFactory,
-        IMapper mapper
+        IMapper mapper,
+        IModelValidator<CreateCategoryModel> createCategoryModelValidator
     ) : ICategoryService
 {
     private readonly IDbContextFactory<MainDbContext> dbContextFactory = dbContextFactory;
     private readonly IMapper mapper = mapper;
+    private readonly IModelValidator<CreateCategoryModel> createCategoryModelValidator = createCategoryModelValidator;
 
     public async Task<IEnumerable<CategoryModel>> GetAll()
     {
@@ -28,5 +26,20 @@ public class CategoryService(
         var result = mapper.Map<IEnumerable<CategoryModel>>(categories);
 
         return result;
+    }
+
+    public async Task<CategoryModel> Create(CreateCategoryModel model)
+    {
+        await createCategoryModelValidator.CheckAsync(model);
+
+        using var context = await dbContextFactory.CreateDbContextAsync();
+
+        var category = mapper.Map<Category>(model);
+
+        await context.Categories.AddAsync(category);
+
+        await context.SaveChangesAsync();
+
+        return mapper.Map<CategoryModel>(category);
     }
 }

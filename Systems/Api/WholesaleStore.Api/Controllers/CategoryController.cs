@@ -22,4 +22,10 @@ public class CategoryController(
 
         return result;
     }
+
+    [HttpPost("create")]
+    public async Task<CategoryModel> Create([FromBody] CreateCategoryModel request)
+    {
+        return await categoryService.Create(request);
+    }
 }

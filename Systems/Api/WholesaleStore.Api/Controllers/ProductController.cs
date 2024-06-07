@@ -9,7 +9,6 @@ using WholesaleStore.Services.Products.Products.Models;
 namespace WholesaleStore.Api.Controllers;
 
 [ApiController]
-//[Authorize]
 [ApiVersion("1.0")]
 [ApiExplorerSettings(GroupName = "Product")]
 [Route("api/v{version:apiVersion}/products")]
@@ -20,7 +19,6 @@ public class ProductController(
     private readonly IProductService productService = productService;
 
     [HttpGet("")]
-    //[Authorize(AppScopes.ProductsRead)]
     public async Task<IEnumerable<ProductModel>> GetAll()
     {
         var result = await productService.GetAll();
@@ -34,6 +32,12 @@ public class ProductController(
         var result = await productService.GetById(id);
 
         return result;
+    }
+
+    [HttpPost("create")]
+    public async Task<ProductModel> Create([FromBody] CreateProductModel request)
+    {
+        return await productService.Create(request);
     }
 
     [HttpPut("{id:Guid}")]
